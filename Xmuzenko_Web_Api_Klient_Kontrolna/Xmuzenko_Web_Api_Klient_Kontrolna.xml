@@ -4,6 +4,13 @@
         <name>Xmuzenko_Web_Api_Klient_Kontrolna</name>
     </assembly>
     <members>
+        <member name="M:Xmuzenko_Web_Api_Klient_Kontrolna.Forms.CreateThing.#ctor(System.Int32,System.String)">
+            <summary>
+            Инициализация компонентов окна
+            </summary>
+            <param name="id">айди дела</param>
+            <param name="name">имя дела</param>
+        </member>
         <member name="F:Xmuzenko_Web_Api_Klient_Kontrolna.Forms.CreateThing.components">
             <summary>
             Required designer variable.
@@ -19,6 +26,22 @@
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Xmuzenko_Web_Api_Klient_Kontrolna.Forms.TaskList.#ctor">
+            <summary>
+            Иницыализацыя компонентов
+            </summary>
+        </member>
+        <member name="M:Xmuzenko_Web_Api_Klient_Kontrolna.Forms.TaskList.GetInstance">
+            <summary>
+            Получение ссилки екземпляра
+            </summary>
+            <returns>Возврат ссилки</returns>
+        </member>
+        <member name="M:Xmuzenko_Web_Api_Klient_Kontrolna.Forms.TaskList.RefreshItem">
+            <summary>
+            Обновление полей в окне после получения данных
             </summary>
         </member>
         <member name="F:Xmuzenko_Web_Api_Klient_Kontrolna.Forms.TaskList.components">
@@ -38,6 +61,24 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="T:Xmuzenko_Web_Api_Klient_Kontrolna.Forms.TaskItem">
+            <summary>
+            Класс Дела
+            </summary>
+        </member>
+        <member name="M:Xmuzenko_Web_Api_Klient_Kontrolna.Forms.TaskItem.#ctor(System.Int32,System.String)">
+            <summary>
+            Инициализация компонентов класса 
+            </summary>
+            <param name="id">айди дела</param>
+            <param name="name">имя дела</param>
+        </member>
+        <member name="M:Xmuzenko_Web_Api_Klient_Kontrolna.Forms.TaskItem.Get">
+            <summary>
+            Получение ссилки на панель
+            </summary>
+            <returns>Возврат ссилки</returns>
+        </member>
         <member name="F:Xmuzenko_Web_Api_Klient_Kontrolna.Forms.TaskItem.components">
             <summary> 
             Обязательная переменная конструктора.
@@ -54,6 +95,19 @@
             Требуемый метод для поддержки конструктора — не изменяйте 
             содержимое этого метода с помощью редактора кода.
             </summary>
+        </member>
+        <member name="T:Xmuzenko_Web_Api_Klient_Kontrolna.Forms.UserControls.ThingItem">
+            <summary>
+            Класс задачи
+            </summary>
+        </member>
+        <member name="M:Xmuzenko_Web_Api_Klient_Kontrolna.Forms.UserControls.ThingItem.#ctor(System.String,System.String,System.DateTime)">
+            <summary>
+            Инициализация компонентов задачи
+            </summary>
+            <param name="description">Описание</param>
+            <param name="priority">Приоритет</param>
+            <param name="date">Дата окончания</param>
         </member>
         <member name="F:Xmuzenko_Web_Api_Klient_Kontrolna.Forms.UserControls.ThingItem.components">
             <summary> 
