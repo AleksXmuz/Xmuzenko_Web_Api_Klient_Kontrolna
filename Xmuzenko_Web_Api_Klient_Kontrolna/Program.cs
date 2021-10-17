@@ -9,7 +9,7 @@ namespace Xmuzenko_Web_Api_Klient_Kontrolna
 {
     static class Program
     {
-        // test123 re
+        // test123 retor
         public const string Url = "http://localhost:34562/api/";
         /// <summary>
         ///  The main entry point for the application.
